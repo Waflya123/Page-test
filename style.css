@@ -193,5 +193,38 @@ main {
 }
 
 @media only screen and (max-width: 767px) {
-  body {
-    font-size: 14px;
+    header {
+        padding: 5px;
+    }
+
+    header h1 {
+        font-size: 18px;
+    }
+
+    main {
+        max-width: 100%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    nav {
+        padding: 0.2em;
+    }
+
+    nav a {
+        padding: 0.5em;
+        margin: 0 0.2em;
+    }
+
+    footer {
+        padding: 2px;
+    }
+
+    .info-window,
+    .consultant-window,
+    .contact-widget,
+    .registration-container,
+    .login-container {
+        padding: 10px;
+    }
+}
