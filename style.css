@@ -6,7 +6,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(to bottom, #30557b, #612328); /* Градієнт зверху вниз */
+    background: linear-gradient(to bottom, #30557b, #612328); /* ГѓГ°Г Г¤ВіВєГ­ГІ Г§ГўГҐГ°ГµГі ГўГ­ГЁГ§ */
 }
 .UserAvatar {
     text-align: center;
@@ -191,3 +191,7 @@ main {
     flex-direction: column;
     text-align: center;
 }
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
