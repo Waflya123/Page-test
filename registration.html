@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація/Вхід - "Insurance"</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Реєстрація/вхід</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Головна</a>
+        <a href="insurance-plans.html">Типи полісів</a>
+        <a href="about.html">Про нас</a>
+        <a href="contact-us.html">контакти</a>
+        <a href="profile.html">Профіль</a>
+        <a href="registration.html">Реєстрація/вхід</a>
+    </nav>
+    <main>
+        <div>
+            <h2>Реєстрація</h2>
+        </div>
+        <form class="registration-form" action="registration.php" method="post">
+            <div class="form-group">
+                <label for="username">Логін:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Зареєструватися</button>
+            </div>
+        </form>
+        <div class="form-group">
+            <p>Вже маєте обліковий запис? <a href="login.php">Увійдіть тут</a>.</p>
+        </div>
+    </main>
+
+    <main>
+        <h2>Вхід в кабінет</h2>
+        <form class="login-form" action="login.php" method="post">
+            <div class="form-group">
+                <label for="username">Логін:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Увійти</button>
+            </div>
+        </form>
+        <div class="form-group">
+            <p>Ще не маєте облікового запису? <a href="registration.php">Зареєструйтесь тут</a>.</p>
+        </div>
+    </main>
+
+        <footer>
+            <p>&copy; 2023 Страхова компанія Insurance. Всі права захищені.</p>
+        </footer>
+
+
+</body>
+</html>
